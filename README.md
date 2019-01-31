@@ -1,3 +1,28 @@
+Installation on Mac:
+
+conda env create -f environment.yml
+
+source activate imagej
+
+conda install notebook ipykernel
+
+ipython kernel install --user
+
+source deactivate
+
+jupyter notebook
+
+
+Now select the kernel imagej and import imagej statement would work
+
+
+
+
+
+
+
+
+
 # Python wrapper for ImageJ
 
 [`pyimagej`](https://github.com/imagej/pyimagej) provides a set of
