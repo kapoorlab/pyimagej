@@ -8,6 +8,10 @@ conda install notebook ipykernel
 
 ipython kernel install --user
 
+
+pip install scyjava
+pip install jnius
+
 source deactivate
 
 jupyter notebook
